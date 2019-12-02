@@ -1,0 +1,29 @@
+body{
+  background: #e5e5e5;
+  margin: 0;
+  padding:0;
+}
+.container{
+  width: 100% ;
+  margin:0 auto;
+  height: 1000px;
+  background: rgba(172, 235, 182, 0.03);
+  box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.05);
+}
+.search-bar-container{
+  margin: auto;
+  width: 40%;
+  margin-top: 25%;
+}
+.form-control:hover,
+.form-control:focus{
+border-color: none;
+box-shadow: -1px -1px rgba(234, 240, 240, 0.2);
+}
+.input-group-text{
+  cursor: pointer;
+}
+.input-group-text:hover{
+  background-color: rgba(234, 240, 240, 0.2);
+  box-shadow: -1px -1px rgba(234, 240, 240, 0.2);
+}
